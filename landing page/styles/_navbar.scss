@@ -1,0 +1,29 @@
+@import 'colors';
+@import 'media-queries';
+
+.navbar {
+    overflow: hidden;
+    background-color: $blackGray;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: $light;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: $lightGray;
+    color: $dark;
+}
+
+.navbar .navbarIcon {
+    display: none;
+  }
