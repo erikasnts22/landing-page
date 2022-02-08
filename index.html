@@ -8,6 +8,8 @@
     <title>Mad Burger</title>
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -27,40 +29,102 @@
     </a>
   </div>
 
+    <div class="features">
+        <h1 style="font-size: 25px;"><br>Everything Delicious!</h1>
+        <p style="font-family:Berkshire Swash; font-size: 50px;" class="greetings">Welcome!</p>
+        <h1 style="font-size: 30px;">We Are Locally<br>
+            Handcrafted Burgers<br>
+            Serving Since 2016.</h1>
+        <h1 style="font-size: 15px;">100% All Beef quarter-pounder burgers. Handcrafted with<br>
+            our signature Army Dressing & Sauces in freshly baked<br>
+            buns, made fresh daily.</h1><br>
+        <button class="button button4">MORE ABOUT US &raquo;</button></div>
+    <div>
 
- <!-- Slideshow container -->
-<div class="slideshow-container">
+  <!-- Multiple Images Carousel - Automatic -->
+  <section id="slider">
+    <div class="container">
+        <div class="subcontainer">
+            <div class="slider-wrapper">
+                <div>
+                    <h2>Best Seller!</h2>
+                </div>
+                <br>
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="../styles/images/carousel-img1.jpeg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
+                <div class="my-slider">
+                    <div>
+                        <div class="slide">
+                            <div class="slide-img img-1">
+                                <a href="#">Learn More</a>
+                            </div>
+                            <br>
+                            <div>
+                                <h3>Cheeseburger Sliders</h3>
+                                <p>Ground beef, dinner rolls, cheese, seasame seeds</p>
+                            </div>
+                        </div>
+                    </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="../styles/images/carousel-img2.jpeg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
+                    <div>
+                        <div class="slide">
+                            <div class="slide-img img-2">
+                                <a href="#">Learn More</a>
+                            </div>
+                            <br>
+                            <div>
+                                <h3>Double Cheesy Quarter Pounder</h3>
+                                <p>Dill picle, cheese, corn, malted barley flour</p>
+                            </div>
+                        </div>
+                    </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="../styles/images/carousel-img3.jpeg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+                    <div>
+                        <div class="slide">
+                            <div class="slide-img img-3">
+                                <a href="#">Learn More</a>
+                            </div>
+                            <br>
+                            <div>
+                                <h3>Double Burger Bacon</h3>
+                                <p>Baby swiss cheese, bacon, dijon, lettuce, tomatoes</p>
+                            </div>
+                        </div>
+                    </div>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+                    <div>
+                        <div class="slide">
+                            <div class="slide-img img-4">
+                                <a href="#">Learn More</a>
+                            </div>
+                            <br>
+                            <div>
+                                <h3>Classic Cheeseburger</h3>
+                                <p>Chuck roast, butter pickles, cheese, mustard</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="slide">
+                            <div class="slide-img img-5">
+                                <a href="#">Learn More</a>
+                            </div>
+                            <br>
+                            <div>
+                                <h3>Black Burger Buns</h3>
+                                <p>Squid ink, white bread flour, butter, anise, eggs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ 
 
 <script src="../js/carousel.js" type="text/javascript"></script>
 <script src="../js/burger-menu.js" type="text/javascript"></script>
